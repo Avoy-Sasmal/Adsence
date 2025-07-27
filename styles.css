@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #333;
+  padding: 12px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 18px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.post {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.adsense-ad {
+  margin: 16px 0;
+}
+
+.ad-placeholder {
+  background: #e0e0e0;
+  color: #888;
+  padding: 40px 0;
+  border-radius: 4px;
+  font-size: 1.2em;
+  border: 2px dashed #ccc;
+  text-align: center;
+}
